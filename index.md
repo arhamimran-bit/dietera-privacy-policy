@@ -1,6 +1,6 @@
 # Dietera Privacy Policy
 
-**Last updated: [RELEASE DATE]**
+**Last updated: Nov 01, 2026**
 
 Dietera ("the app", "we", "us") is a diet-tracking app for Android, developed by Arham Imran in Pakistan. This policy explains what data the app collects, why, who it is shared with, and how you can delete it.
 
