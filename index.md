@@ -1,4 +1,3 @@
-# Dietera Privacy Policy
 
 **Last updated: Nov 01, 2026**
 
