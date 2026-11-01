@@ -44,6 +44,7 @@ Dietera does **not** collect your location, contacts, or any other files on your
 - To read and respond to feedback you send.
 
 We do **not** sell your data. We do **not** use your data for advertising. We do **not** send marketing emails.
+We may share or publish **anonymous, combined statistics** that cannot identify you (for example, "average daily calories of Dietera users").
 
 ## 5. AI meal analysis
 
