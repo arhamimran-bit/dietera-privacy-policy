@@ -1,5 +1,4 @@
-
-**Last updated: Nov 01, 2026**
+**Last updated: Nov 02, 2026**
 
 Dietera ("the app", "we", "us") is a diet-tracking app for Android, developed by Arham Imran in Pakistan. This policy explains what data the app collects, why, who it is shared with, and how you can delete it.
 
@@ -9,25 +8,26 @@ Contact: **arhamimran.mil3@gmail.com**
 
 ## 1. Using Dietera with or without an account
 
-- **Without signing in (guest):** your data stays on your phone. Guests can log one meal before signing in is required.
-- **With Google sign-in:** your data is also saved to our cloud, so it can be restored if you change or reset your phone.
+- **Without signing in (guest):** your profile, meals and weight entries stay on your phone. Guests can log one meal before signing in is required. Even as a guest, when you log a meal the text or photo is sent to our server for AI analysis, and the device-level information described in section 3 is sent to our server.
+- **With Google sign-in:** your profile, meals, weights and goal history are also saved to our cloud, so they can be restored if you change or reset your phone.
 
 Signing in is optional.
 
 ## 2. Information you give us
 
 - **Account details:** your name and email address from your Google account, if you sign in.
-- **Profile:** name, age, gender, height, weight, goal weight, activity level, and your calorie and protein goals (including the history of your goals).
+- **Profile:** name, age, gender, height, weight, starting weight, goal weight, goal type, activity level, timeframe, and your calorie, protein, carbohydrate, fat, sugar and fibre goals (including the history of your goals).
 - **Meals:** what you type to describe a meal, meal photos you take, and the nutrition values for each meal.
 - **Weight entries** you log.
 - **Reminder settings:** the days and times you choose for reminders.
-- **Feedback and poll answers** you choose to send us.
+- **Feedback and poll answers** you choose to send us. Feedback is sent together with the name in your profile.
 
 ## 3. Information collected automatically
 
 - **Device ID:** an identifier for your phone, used to apply daily limits, send reminders, and keep basic usage statistics.
 - **Push notification token:** needed to send you reminders.
 - **Usage statistics:** when the app is opened, how long it is used, and how many AI requests are made each day.
+- **AI request records:** for each AI meal analysis, our server keeps the meal text or name and the resulting nutrition values, linked to your device ID (see section 9 for how long).
 - **Technical information:** such as your IP address, which our hosting provider may record when the app connects to our server.
 
 Dietera does **not** collect your location, contacts, or any other files on your phone.
@@ -47,11 +47,11 @@ We may share or publish **anonymous, combined statistics** that cannot identify 
 
 ## 5. AI meal analysis
 
-When you log a meal, the text you type and any meal photo are sent to **OpenAI** to estimate its calories and nutrients. Only what is needed for that analysis is sent.
+When you log a meal, the text you type and any meal photo are sent to **OpenAI** to estimate its calories and nutrients. Only what is needed for that analysis is sent. Meal photos are passed to OpenAI and are **not stored on our servers**. OpenAI handles the data it receives under its own terms and privacy policy.
 
 All nutrition values are **estimates**. Dietera is not a medical service and its estimates and goals are not medical advice. Talk to a doctor or dietitian before making major changes to your diet.
 
-Meal photos are stored on your phone. They are not saved in your cloud backup.
+Meal photos are stored only on your phone. They are never uploaded to your account or included in your cloud backup, so they will not be restored if you log out, reinstall the app or change phones.
 
 ## 6. Services we use
 
@@ -63,7 +63,7 @@ We use trusted providers to run the app. They process data only to provide their
 | OpenAI | Analyses meal text and photos to estimate nutrition |
 | Railway | Hosts our server and the cloud database where your account data is stored |
 
-Your data is stored on servers located in the United States.
+Our servers are run by Railway and may be located outside your country.
 
 We may also share information if required by law, or to protect the safety of our users or others.
 
@@ -78,16 +78,18 @@ Data sent between the app and our server is encrypted (HTTPS). Access to the ser
 ## 9. How long we keep your data
 
 - **Account data** (profile, meals, weights, goal history) is kept until you delete your account.
-- **Device-level data** (device ID, usage statistics, daily-limit counts, reminder settings, feedback) is kept for as long as it is needed for the purposes above. You can ask us to delete it by email.
+- **AI request records** are deleted 7 days after the app receives the result, or after 30 days if the app never receives it.
+- **Daily AI request counts** are deleted after 30 days without use. We keep them so that deleting an account cannot be used to bypass daily limits.
+- **Other device-level data** (push token, reminder settings, usage statistics, feedback and poll answers) is kept until you delete your account from that phone or ask us to delete it by email.
 - **Logging out** removes your data from that phone. Your cloud copy stays until you delete your account.
 
 ## 10. How to delete your data
 
-**In the app:** Settings → Manage account → **Delete account**. This permanently deletes your account and all of its data from our servers (profile, meals, weights and goal history) and removes the data from your phone.
+**In the app:** Settings → Manage account → **Delete account**. This permanently deletes your account and its data from our servers (profile, meals, weights and goal history), deletes the device-level data linked to your phone (except the daily request counts described in section 9), and removes the data from your phone.
 
 **By email:** if you can no longer use the app, email **arhamimran.mil3@gmail.com** from the Google email address you signed in with, with the subject "Delete my Dietera account". We will delete your account and its data within 30 days and confirm by email.
 
-**Guests:** your data is only on your phone. Uninstalling the app deletes it.
+**Guests:** your profile, meals and weights are only on your phone, and uninstalling the app deletes them. To delete the device-level data we hold for your phone (section 3), email us and include your request.
 
 ## 11. Your rights
 
